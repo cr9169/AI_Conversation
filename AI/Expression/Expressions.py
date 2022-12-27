@@ -17,16 +17,17 @@ class Expressions:
     def check_expression_type(self, expression: str, expression_list: list, initial_expression_type: str):
         expression_type = ""
         if any(exp in expression for exp in expression_list):
-            if initial_expression_type == "good":
-                if self.check_if_switched_meaning(expression):
-                    expression_type = "bad"
-                else:
-                    expression_type = "good"
-            else:
-                if self.check_if_switched_meaning(expression):
-                    expression_type = "good"
-                else:
-                    expression_type = "bad"
+            match initial_expression_type:
+                case "good":
+                    if self.check_if_switched_meaning(expression):
+                        expression_type = "bad"
+                    else:
+                        expression_type = "good"
+                case "bad":
+                    if self.check_if_switched_meaning(expression):
+                        expression_type = "good"
+                    else:
+                        expression_type = "bad"
             return expression_type
         else:
             raise ValueError("expression not in expression list!")  # TODO: change to custom error.
