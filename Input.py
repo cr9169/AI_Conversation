@@ -21,7 +21,7 @@ def check_if_sentence_valid(sentence):
 
 def remove_spaces_from_sentence_input(sentence):
     """
-    Ex: (" wds fsd        st          teryterre yt yty  er") =>
+    Ex: (" wds fsd        st          teryterre yt yty  er") => to =>
     ("wds fsd st teryterre yt yty er")
 
     :param sentence: string
