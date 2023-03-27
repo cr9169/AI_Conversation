@@ -1,0 +1,59 @@
+# יש להצליב ניקוד מילים "רעות" עם ניקוד מילים "טובות", כלומר יהיה שקלול של מדד אופטימיות מול מדד חשיבה שלילית (יהווה חלק מהניקוד, מדד נטו "טוב" מול "רע").
+# ישנן מילים "רעות" שלפניהן תופיע מילת שלילה (בדרך כלל מהווה פלוס יחסי במדד חיוביות ולא יהיה במדד שליליות),
+  וישנן מילים "טובות" שלפניהן תופיע מילת שלילה (בדרך כלל מהווה פלוס יחסי במדד שליליות ולא יהיה במדד חיוביות) => תיהיה פונקציה שבודקת את שני המקרים. 
+
+* מילים "רעות" אחרי המילים I am או I feel במשפט:
+------------------------------------------------
+
+bad
+miserable
+in a bad mood
+in a foul mood
+in a mood
+depressed
+down 
+stressed
+upset
+sad 
+helpless
+alone
+hopeless
+aching
+lost
+worthless
+useless
+stupid
+stuck
+untethered
+adrift
+hurting
+afraid
+unsure
+insecure
+despair
+
+
+* מילים "טובות" אחרי המילים I am או I feel במשפט:
+-------------------------------------------------
+
+good
+glad 
+cheerful
+pleased 
+delighted
+ecstatic
+excited
+elated
+on cloud nine
+contented
+happy
+in a good mood
+pumped
+optimistic
+hopeful
+peaceful
+loving
+calm
+satisfied
+fulfilled
+joyful
